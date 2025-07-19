@@ -1,5 +1,5 @@
-# Hospital-Database-Management-System-SQL-Queries-Project
-Hospital Database Management System SQL queries Project
+# Hospital-Database-Management-System-MySQL-Queries-Project
+Hospital Database Management System MySQL queries Project
 
 The final project topic is hospital management system, which is being created
 by myself. The schema and the data were inserted into the database with many
