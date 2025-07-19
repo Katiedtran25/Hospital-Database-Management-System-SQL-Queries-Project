@@ -7,9 +7,12 @@ tables of data. The database to be developed will consist of the following table
 Nurse, Department, Physician, Patient, Room, Prescription, Appointment, Procedure, Trained-in, affiliated with, Medication, Stay, on-call, Undergoes. The
 goal is to get real-time experience dealing with the kinds of challenges healthcare
 workers can find in a real hospital, like keeping track of patients and appointments.
+
 The system is used strictly by employees of hospital only. There are several locations of hospital and many relational tables of data. It creates a systematic and standardized record of Patients, Doctors, and Rooms, which can
 be controlled only by the administrator. The system should be able to query
-information about room and patient assignments for each employee of a department. The database should be able to store patient information for use by
+information about room and patient assignments for each employee of a department. 
+
+The database should be able to store patient information for use by
 employees such as Patient ID, Name, Location, Room number, Assigned staff,
 Prescriptions, and Invoices to generate reports. etc. All patients and doctors
 will have a unique and will be related in the database depending on the ongoing
@@ -34,6 +37,7 @@ MEDICATION (code, name, brand, description)
 STAY(stayid,patient-room,start-time,end-time)
 On-callnurse,blockkfloor,blockcode,oncall,ONCALLEND)
 Undergoes(patient, procedures, stay, date, physicianassit, ingnurse)
+
 Data Analysis
 For our hospital database, the staff are the users and below are some of the
 tasks that will be performed by the staff of the hospital:
@@ -43,6 +47,8 @@ information U pdating patient information N ame of the physicians/Nurses
 with department/ patients to be affiliated, etc
 
 SQL queries:
+
+
 (−) Write a query in SQL to find a nurse who is yet to be registered
 select *from nurse where registered =’f ’;
 
