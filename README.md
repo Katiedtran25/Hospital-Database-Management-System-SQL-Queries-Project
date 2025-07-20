@@ -19,6 +19,20 @@ will have a unique and will be related in the database depending on the ongoing
 treatments. Also, There are separate modules for hospital admission, patients’
 discharge summary, duties of nurses and ward boys, medical stores, etc.
 
+Data Analysis Results
+There was only employee, who was not yet register. The head of
+nurse is Carla Espinosa. There are three physicians who are the head
+of each department. There are four patients, who taken appointment
+with at least one physician. There are two the floors and blocks,
+where the room number 212 belongs to. There are twenty nine available rooms and seven unavailable rooms. There are nine physicians
+and the departments they are affiliated with. There are three physicians, who are trained for a special treatment. There are four patients
+with their physicians by whom they got their preliminary treatment.
+There are four patients and the number of physicians they have taken
+appointment. There are three unique patients who got an appointment for examination room C. There are two names of the patients,
+their treating physicians and medication. There are four names of
+the patients who taken an advanced appointment, and also display
+their physicians and medication.
+
 ER Diagram
 Relational schema:
 Block ( blockcode, blockfloor)
